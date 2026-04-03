@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nexto - Home</title>
+    <link rel="icon" type="image/png" href="images/lolof-01.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <nav class="navbar">
+    <div>
+      <a href="index.html"></a>
+      <img src="images/logonexto-01-01-01.png" alt="" width="220" />
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html">Accueil</a></li>
+
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+  <body>
+    <div class="queue-wrapper">
+      <table>
+        <thead>
+          <tr>
+            <th>Numéro</th>
+            <th>Service</th>
+            <th>Statut</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>A23</td>
+            <td>Dépôt</td>
+            <td><span class="status en-cours">En cours</span></td>
+          </tr>
+          <tr>
+            <td>A22</td>
+            <td>Retrait</td>
+            <td><span class="status attente">En attente</span></td>
+          </tr>
+          <tr>
+            <td>A25</td>
+            <td>Dépôt</td>
+            <td><span class="status termine">Terminé</span></td>
+          </tr>
+          <tr>
+            <td>A24</td>
+            <td>Consultation</td>
+            <td><span class="status attente">En attente</span></td>
+          </tr>
+          <tr>
+            <td>A26</td>
+            <td>Retrait</td>
+            <td><span class="status attente">En attente</span></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="wait-time">Temps d'attente estimé : 23 minutes</div>
+
+      <button class="refresh-btn">Actualiser</button>
+    </div>
+  </body>
+</html>

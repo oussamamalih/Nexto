@@ -1,0 +1,500 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  background-color: #7aaace;
+}
+
+.container {
+  background-color: #a8d8b9;
+  padding: 20px 80px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #355872;
+  padding: 1px 20px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+.btn-commencer {
+  background-color: #7aaace;
+  color: white;
+
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  padding: 60px 0;
+}
+
+.hero-content {
+  flex: 1;
+  margin-left: 110px;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  color: #0f3d32;
+  margin: 0 0 20px;
+}
+
+.hero-content p {
+  font-size: 18px;
+  color: #0f3d32;
+  max-width: 500px;
+  margin-bottom: 30px;
+}
+
+.hero-buttons .btn-primary {
+  background-color: #355872;
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-right: 15px;
+}
+
+.hero-buttons .btn-secondary {
+  background-color: transparent;
+  color: #0f3d32;
+  padding: 13px 28px;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 2px solid #0f3d32;
+}
+
+.hero-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-logo {
+  max-width: 350px;
+  height: auto;
+}
+
+.logo-placeholder {
+  font-size: 200px;
+  font-weight: 700;
+  color: #0f3d32;
+  /* This is a placeholder for the complex logo */
+  transform: rotate(-45deg);
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 60px 80px;
+  background-color: #e0e0e0;
+}
+
+.feature-card {
+  background-color: cadetblue;
+  color: white;
+  padding: 30px;
+  border-radius: 10px;
+  width: 220px;
+  text-align: center;
+}
+
+.feature-card .icon-wrapper {
+  width: 60px;
+  height: 60px;
+  background-color: white;
+  border-radius: 50%;
+  margin: 0 auto 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Style for the images inside the icon wrapper */
+.feature-card .icon-wrapper img {
+  width: 35px; /* Adjust size as needed */
+  height: 35px; /* Adjust size as needed */
+}
+
+.feature-card h3 {
+  margin: 0 0 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.feature-card p {
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+/*  */
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  color: #333;
+}
+
+/* How it works section */
+.how-it-works {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: white;
+}
+
+.how-it-works h2 {
+  font-size: 36px;
+  margin-bottom: 60px;
+}
+
+.steps {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  position: relative;
+}
+
+.steps::before {
+  content: "";
+  position: absolute;
+  top: 25px;
+  left: 10%;
+  right: 10%;
+  height: 2px;
+  background-color: #ddd;
+  z-index: 1;
+}
+
+.step {
+  flex: 1;
+  max-width: 200px;
+  position: relative;
+  z-index: 2;
+}
+
+.step-number {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0 auto 15px;
+  border: 2px solid #ddd;
+}
+
+.step-title {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.step-description {
+  font-size: 14px;
+  color: #666;
+}
+
+/* Advantages Section */
+.advantages {
+  background-color: #f0f0f0;
+  padding: 80px;
+}
+
+.advantages h2 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.advantage-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.advantage-item .circle {
+  width: 60px;
+  height: 60px;
+  border: 3px solid #333;
+  border-radius: 50%;
+  margin-right: 20px;
+  flex-shrink: 0;
+}
+
+.advantage-item h3 {
+  margin: 0 0 5px;
+}
+
+.advantage-item p {
+  margin: 0;
+  color: #555;
+}
+
+/* CTA Section */
+.cta {
+  background-color: #7aaace;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.cta a {
+  color: white;
+  text-decoration: none;
+}
+
+.cta h2 {
+  font-size: 36px;
+  max-width: 600px;
+  margin: 20px auto 30px;
+}
+
+.btn-cta {
+  background-color: #355872;
+  color: white;
+  padding: 7px 30px;
+  border-radius: 5px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* Footer */
+footer {
+  background-color: #355872;
+  color: white;
+  padding: 40px 80px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.footer-left .logo {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.footer-right {
+  display: flex;
+  gap: 60px;
+}
+
+.footer-right div a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.footer-right div p {
+  margin: 0 0 10px;
+}
+
+/* //////////page 2 : prendre un ticket /////////// */
+.container1 {
+  background-color: #9cd5ff;
+  width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border: 1px solid #333;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.option input {
+  margin-right: 15px;
+  width: 20px;
+  height: 20px;
+}
+
+button {
+  background-color: #355872;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn-pr {
+  background-color: #355872;
+}
+
+button:hover {
+  background-color: #333;
+}
+
+/* ticket */
+.container3 {
+  background-color: #9cd5ff;
+  width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 20px;
+  padding-bottom: 3px;
+}
+
+.ticket {
+  border: 2px solid #333;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.ticket h1 {
+  font-size: 48px;
+  margin: 10px 0;
+}
+
+.ticket h3,
+.ticket h4 {
+  margin: 10px 0 5px;
+}
+
+.ticket p {
+  margin: 5px 0;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #999;
+  margin: 15px 0;
+}
+
+.note {
+  font-weight: bold;
+}
+
+button {
+  background-color: #111;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #333;
+}
+
+.footer-text {
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+/*  list datend*/
+
+.queue-wrapper {
+  background-color: #9cd5ff;
+  width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th {
+  text-align: left;
+  padding: 10px;
+  border-bottom: 2px solid #355872;
+}
+
+td {
+  padding: 12px 10px;
+  border-bottom: 1px solid #355872;
+}
+
+.status {
+  padding: 5px 10px;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 12px;
+}
+
+.en-cours {
+  background-color: #355872;
+}
+
+.attente {
+  background-color: #355872;
+}
+
+.termine {
+  background-color: #355872;
+}
+
+.wait-time {
+  border: 1px solid #355872;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.refresh-btn {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  border: 1px solid #355872;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.refresh-btn:hover {
+  background-color: #333;
+  color: #fff;
+}
